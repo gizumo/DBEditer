@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, Database_editerActivity!</string>
+    <string name="app_name">Database_editer</string>
+    <string name="databasename">SQLを発行してください</string>
+    <string name="next">次へ</string>
+    <string name="edit">テーブル制作</string>
+    <string name="managemant">テーブル管理</string>
+    <string name="exit">終了</string>
+    <string name="cancel">戻る</string>
+    <string name="table_name">テーブル名</string>
+    <string name="columnnametext">項目名</string>
+    <string name="columntypetext">項目の内容</string>
+    <string name="COLUMN">項目追加</string>
+    <string name="menu_cacel">メニューに戻る</string>
+    <string name="SQL">SQL発行</string>
+    <string-array name="item_label">
+        <item>空白(Null)</item>
+        <item>数値(Integer)</item>
+        <item>小数含む数値(REAL)</item>
+        <item>文字列(TEXT)</item>
+        <item>データそのまま(BLOB)</item>
+    </string-array>
+</resources>

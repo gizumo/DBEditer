@@ -1,0 +1,35 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="left|right"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/editbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="220dp"
+            android:text="@string/edit" 
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/managementbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:text="@string/managemant" />
+
+        <Button
+            android:id="@+id/exitbutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="@string/exit" />
+
+    </LinearLayout>

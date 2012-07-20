@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/databasename"
+                android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/table_name"
+                android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+
+            <EditText
+                android:id="@+id/tableedit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00" ></EditText>
+
+            <TextView
+                android:id="@+id/column_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/columnnametext"
+                android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+
+            <EditText
+                android:id="@+id/column_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" ></EditText>
+
+            <TextView
+                android:id="@+id/type_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/columntypetext"
+                android:textAppearance="?android:attr/textAppearanceLarge" ></TextView>
+
+            <Spinner
+                android:id="@+id/Type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" ></Spinner>
+
+            <Button
+                android:id="@+id/COLUMN_BUTTON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/COLUMN" ></Button>
+
+            <Button
+                android:id="@+id/SQL＿BUTTON"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.00"
+                android:text="@string/SQL" />
+
+            <Button
+                android:id="@+id/cancel_Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_weight="0.00"
+                android:text="@string/cancel" ></Button>
+            
+            </LinearLayout>
+        </LinearLayout>
